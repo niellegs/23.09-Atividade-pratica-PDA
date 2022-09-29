@@ -1,0 +1,181 @@
+/*********** NAVEGAÇÃO **********/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #D8E9A8;
+}
+
+ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191A19;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li:last-child {
+    border-right: 1px solid #191A19;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: greenyellow;
+}
+
+/*********** SEÇÕES **********/
+
+/*********** INICIO **********/
+
+#inicio {
+    display: inline-block;
+    justify-content: end;
+    vertical-align: middle;
+    background-color: #D8E9A8;
+    color:#191A19;
+}
+
+.p-inicio {
+    padding-left: 600px;
+    padding-right: 150px;
+}
+
+h1 {
+    padding-left: 600px;
+    padding-top: 100px ;
+}
+
+.img-inicio {
+    height: 500px;
+    width: auto;
+    float: left;
+    padding: 100px 100px 100px 100px;
+    margin: 0;
+}
+
+/*********** BIOGRAFIA **********/
+
+#biografia {
+    display: inline-block;
+    justify-content: flex-end;
+    vertical-align:top;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+.p-biografia {
+    justify-content: center;
+    padding: 0px 700px 0 100px;
+
+}
+
+#h1-biografia {
+    padding-left: 100px;
+    padding-right: 700px;
+    padding-top: 100px;
+}
+
+#img-biografia {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 170px 100px 200px 50px;
+    height: 500px;
+    width: auto;
+    float: right;
+}
+
+/*********** MÚSICAS **********/
+#musicas-parent {
+    vertical-align: middle;
+    background-color: #D8E9A8;
+    color: #191A19;
+}
+
+#h1-musicas {
+    padding-top: 100px;
+    padding-left: 710px;
+}
+
+#musicas {
+    display: flex;
+}
+
+
+#umbrella {
+    display: inline-flexbox;
+    padding: 50px 60px 50px 60px;
+    background-color: #191A19;
+    color: #D8E9A8;
+    margin: 10px;
+}
+
+#diamonds {
+    display: inline-flexbox;
+    padding: 50px 60px 50px 60px;
+    background-color: #191A19;
+    color: #D8E9A8;
+    margin: 10px;
+}
+
+#stay {
+    display: inline-flexbox;
+    padding: 50px 60px 50px 60px;
+    background-color: #191A19;
+    color: #D8E9A8;    
+    margin: 10px;
+}
+
+video {
+    height: 200px;
+    width: auto;
+}
+
+/*********** LOOKS **********/
+#looks {
+    display: flex;
+}
+#look1 {
+    display: inline-flexbox;
+    padding: 10px;
+    background-color: #191A19;
+    color: #D8E9A8;
+
+}
+
+#look2 {
+    display: inline-flexbox;
+    padding: 100px;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+#look3 {
+    display: inline-flexbox;
+    padding: 200px 100px 100px 10px;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+.img-looks {
+    height: 500px;
+    width: auto;
+}
+
+/*********** FENTY BEAUTY **********/
+#img-fenty {
+    height: 800px;
+    width: auto;
+}
