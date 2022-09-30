@@ -56,6 +56,8 @@ li a:hover {
 h1 {
     padding-left: 600px;
     padding-top: 100px ;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .img-inicio {
@@ -98,6 +100,7 @@ h1 {
 }
 
 /*********** MÚSICAS **********/
+
 #musicas-parent {
     vertical-align: middle;
     background-color: #D8E9A8;
@@ -105,8 +108,11 @@ h1 {
 }
 
 #h1-musicas {
+    font-size: 27px;
     padding-top: 100px;
-    padding-left: 710px;
+    padding-left: 700px;
+    padding-right: 100px;
+
 }
 
 #musicas {
@@ -144,12 +150,20 @@ video {
 }
 
 /*********** LOOKS **********/
+
+
+#h1-looks {
+    font-size: 27px;
+    padding-left: 130px;
+    padding-right: 100px;
+}
+
 #looks {
     display: flex;
 }
 #look1 {
     display: inline-flexbox;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     background-color: #191A19;
     color: #D8E9A8;
 
@@ -157,14 +171,14 @@ video {
 
 #look2 {
     display: inline-flexbox;
-    padding: 100px;
+    padding: 100px 40px 10px 40px;
     background-color: #191A19;
     color: #D8E9A8;
 }
 
 #look3 {
     display: inline-flexbox;
-    padding: 200px 100px 100px 10px;
+    padding: 200px 100px 0px 10px;
     background-color: #191A19;
     color: #D8E9A8;
 }
@@ -176,6 +190,32 @@ video {
 
 /*********** FENTY BEAUTY **********/
 #img-fenty {
-    height: 800px;
+    height: 600px;
     width: auto;
+    padding-left: 150px;
 }
+
+#h1-fenty {
+    display: block;
+    font-size: 27px;
+    padding-left: 650px;
+    padding-right: 100px;
+}
+.p-fenty {
+    padding: 0 100px 0 100px; 
+}
+
+#fentybeauty {
+    border: 100px solid #191A19;
+}
+
+/*********** FOOTER **********/
+#creditos {
+    margin-top: 100px solid #191A19;
+    border-top: 100px solid #191A19;
+    border-bottom: 30px;
+    background-color: #191A19;
+    color: #727572;
+    padding-top: 100px;
+}
+#a-footer
