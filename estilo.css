@@ -192,30 +192,45 @@ video {
 #img-fenty {
     height: 600px;
     width: auto;
-    padding-left: 150px;
+    display: flex;
+    text-align: center;
+    padding-left: 300px;
 }
 
 #h1-fenty {
-    display: block;
+    display: flex;
     font-size: 27px;
     padding-left: 650px;
     padding-right: 100px;
 }
 .p-fenty {
-    padding: 0 100px 0 100px; 
+    padding: 0 300px 0 300px; 
 }
 
-#fentybeauty {
-    border: 100px solid #191A19;
-}
+
 
 /*********** FOOTER **********/
 #creditos {
-    margin-top: 100px solid #191A19;
+    margin-top: 200px solid #191A19;
+    margin-bottom: 200px solid #191A19;
     border-top: 100px solid #191A19;
     border-bottom: 30px;
     background-color: #191A19;
     color: #727572;
     padding-top: 100px;
 }
-#a-footer
+#a-footer {
+    text-decoration: none;
+    color: #727572;
+    justify-content: center;
+    display: flex;
+}
+
+#a-footer:hover {
+    color: #D8E9A8;
+}
+
+#p-footer {
+    display: flex;
+    justify-content: center;
+}
